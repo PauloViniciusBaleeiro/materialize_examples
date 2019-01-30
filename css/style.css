@@ -1,0 +1,79 @@
+@font-face{
+    font-family: SocialIcons;
+    src: url('../fonts/social_circles/Social-Circles-v1.1.otf');
+}
+
+.slide-out-logo{
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-logo{
+    height: 56px;
+}
+/*GERAL*/
+#servicos{
+    padding-top: 76px ; 
+}
+
+/*DESTAQUE*/
+#destaque{
+    width: 100%;
+    height: calc(100% - 64px);
+}
+
+#destaque figure{
+    width: 100%;
+    margin: 0px;
+}
+#destaque figure img{
+    width: 100%;
+}
+
+/*SERVIÇOS*/
+.servicos-link:hover{
+    color: #bf360c;
+    cursor: pointer;
+}
+
+/*PRODUTOS*/
+.card-title{
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+/*LOCALIZAÇÃO*/
+#localizacao{
+    height: 500px;
+    width: 100%
+}
+
+#localizacao iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/*CONTATOS*/
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 2px solid #bf360c !important;
+    box-shadow: none;
+}
+
+input:not([type]):not([readonly]):focus + label, input[type=text]:not([readonly]):not(.browser-default):focus + label, input[type=password]:not([readonly]):not(.browser-default):focus + label, input[type=email]:not([readonly]):not(.browser-default):focus + label, input[type=url]:not([readonly]):not(.browser-default):focus + label, input[type=time]:not([readonly]):not(.browser-default):focus + label, input[type=date]:not([readonly]):not(.browser-default):focus + label, input[type=datetime]:not([readonly]):not(.browser-default):focus + label, input[type=datetime-local]:not([readonly]):not(.browser-default):focus + label, input[type=tel]:not([readonly]):not(.browser-default):focus + label, input[type=number]:not([readonly]):not(.browser-default):focus + label, input[type=search]:not([readonly]):not(.browser-default):focus + label, textarea:not([readonly]).materialize-textarea:focus + label {
+color: #bf360c !important;
+}
+
+/*FOOTER*/
+
+.icons-list li{
+    display: inline;
+}
+
+.icons-list li a{
+    font-family: SocialIcons;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.icons-list li a:hover{
+    color: black;
+}
